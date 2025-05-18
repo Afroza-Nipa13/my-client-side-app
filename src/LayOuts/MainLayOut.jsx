@@ -4,8 +4,8 @@ import Navbar from '../Components/Navbar';
 
 const MainLayOut = () => {
     return (
-        <div>
-            <header>
+        <div className='mx-auto w-11/12'>
+            <header className=''>
                 <Navbar></Navbar>
             </header>
             <main>
